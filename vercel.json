@@ -7,6 +7,10 @@
     ],
     "redirects": [
         {
+            "source": "/(.*)",
+            "destination": "https://vercel.com/docs"
+        },
+        {
             "source": "/",
             "destination": "/react-app-home.js",
             "permanent": true
