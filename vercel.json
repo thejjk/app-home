@@ -1,8 +1,15 @@
 {
-    "redirects": [
+    "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "https://vercel.com/docs"
+            "destination": "/"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/spa",
+            "destination": "/react-app-home.js",
+            "permanent": true
         }
     ],
     "public": true
