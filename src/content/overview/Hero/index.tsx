@@ -78,16 +78,16 @@ function Hero() {
   return (
     <Container maxWidth="lg" sx={{ textAlign: 'center' }}>
       <Grid
-        spacing={{ xs: 6, md: 10 }}
+        spacing={{ xs: 6, md: 7 }}
         justifyContent="center"
         alignItems="center"
         container
       >
         <Grid item md={10} lg={8} mx="auto">
-          <TypographyH1 sx={{ mb: 2 }} variant="h1">
-            SPA + React + Angular 
+        <TypographyH1 sx={{ mb: 3 }} variant="h1">
+            SPA
           </TypographyH1>
-          <Box sx={{ display: 'flex', justifyContent: 'space-around' }} mt={5}>
+          <Box sx={{ display: 'flex', justifyContent: 'space-around' }} mt={3}>
             <Grid item md={6}>
               <MuiAvatar>
                 <img
@@ -130,12 +130,13 @@ function Hero() {
             </Grid>
           </Box>
           <Button
+          sx={{ mt: 4 }}
             component={RouterLink}
             to="portal/dashboards/crypto"
             size="large"
             variant="contained"
           >
-            Go
+            Entrar
           </Button>
         </Grid>
       </Grid>
