@@ -4,6 +4,10 @@ import { Link as RouterLink } from 'react-router-dom';
 
 import { styled } from '@mui/material/styles';
 
+import MUILogo from "src/assets/static/images/logo/material-ui.svg";
+import SPALogo from "src/assets/static/images/logo/single-spa-mark-magenta.svg";
+import TSLogo from "src/assets/static/images/logo/typescript.svg";
+
 const TypographyH1 = styled(Typography)(
   ({ theme }) => `
     font-size: ${theme.typography.pxToRem(50)};
@@ -83,11 +87,11 @@ function Hero() {
           <TypographyH1 sx={{ mb: 2 }} variant="h1">
             SPA + React + Angular 
           </TypographyH1>
-          <Box sx={{ display: 'flex' }} mt={5}>
+          <Box sx={{ display: 'flex', justifyContent: 'space-around' }} mt={5}>
             <Grid item md={6}>
               <MuiAvatar>
                 <img
-                  src="src/assets/static/images/logo/material-ui.svg"
+                  src={MUILogo}
                   alt="Material-UI"
                 />
               </MuiAvatar>
@@ -100,27 +104,27 @@ function Hero() {
             <Grid item md={6}>
               <TsAvatar>
                 <img
-                  src="src/assets/static/images/logo/typescript.svg"
+                  src={TSLogo}
                   alt="Typescript"
                 />
               </TsAvatar>
               <Typography variant="h4">
                 <Box sx={{ pb: 2 }}>
-                  <b>Built with Typescript</b>
+                  <b>Powered by TS </b>
                 </Box>
               </Typography>
             </Grid>
+
             <Grid item md={6}>
               <TsAvatar>
                 <img
-                  src="src/assets/static/images/logo/typescript.svg"
+                  src={SPALogo}
                   alt="Typescript"
                 />
-                <img />
               </TsAvatar>
               <Typography variant="h4">
                 <Box sx={{ pb: 2 }}>
-                  <b>Built with Typescript</b>
+                  <b>Powered by SPA</b>
                 </Box>
               </Typography>
             </Grid>
