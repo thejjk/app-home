@@ -11,5 +11,6 @@
             "destination": "/react-app-home.js",
             "permanent": true
         }
-    ]
+    ],
+    "public": true
 }
