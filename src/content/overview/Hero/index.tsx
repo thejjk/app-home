@@ -107,7 +107,7 @@ ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus sit amet luctu
             </TypographyH2>
           <Button
             component={Link}
-            to="/dashboards/crypto"
+            to="portal/dashboards/crypto"
             size="large"
             variant="contained"
           >
