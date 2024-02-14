@@ -4,5 +4,12 @@
             "source": "/(.*)",
             "destination": "/"
         }
+    ],
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "/react-app-home.js",
+            "permanent": true
+        }
     ]
 }
