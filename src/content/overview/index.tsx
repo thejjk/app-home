@@ -26,7 +26,7 @@ function Overview() {
           
           <img width={270} src={PortoSvg}></img>
         </Box>
-        <Card sx={{ p: 10, mb: 10, borderRadius: 12 }}>
+        <Card sx={{ p: 6, mb: 10, borderRadius: 12 }}>
           <Hero />
         </Card>
       </Container>
